@@ -1,0 +1,21 @@
+[
+    {
+      "product": "Fixed Saver",
+      "interest rate": 2.20,
+      "minimum Deposit": 500,
+      "interest type": "Fixed"
+    },
+    {
+      "product": "Flex Saver",
+      "interest rate": 1.5,
+      "minimum Deposit": 0,
+      "interest type": "Tracker"
+    },
+    {
+      "product": "offset Saver",
+      "interest rate": 1.8,
+      "minimum Deposit": 1000,
+      "interest type": "Fixed"
+    }
+  ]
+  

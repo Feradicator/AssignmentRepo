@@ -1,0 +1,118 @@
+
+.savings-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Common title styling */
+ .desktop-view h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 24px; /* Font size 24px */
+  line-height: 36px;
+  color: #e4efee; /* Text color */
+  background-color: #008c85; 
+    margin: 20px 0;
+  }
+  
+  /* Desktop table view */
+  .desktop-view {
+    display: block;
+  }
+  
+  .savings-table {
+    font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-size: 20px; 
+  line-height: 36px;
+  color: #0c332f; /* Text color */
+  
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .savings-table th, .savings-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .savings-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+  }
+  
+  /* Mobile card view */
+  .mobile-view {
+    display: none;
+  }
+  .mobile-view h1
+  {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 36px; /* Font size 24px */
+    line-height: 36px;
+    color: #e4efee; /* Text color */
+    background-color: #008c85; 
+      margin: 20px 0;
+    }
+  
+  .savings-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+   
+  }
+  
+ 
+  
+  .saver-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .mtablebody{
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-size: 24px; 
+    line-height: 36px;
+    color: #0c332f;
+    background-color: #f9fbd0;  
+  }
+  
+  
+  
+  
+
+  
+  /* For mobile  and tablets */
+  @media (min-width: 300px) and (max-width: 1024px) {
+    .desktop-view {
+      display: none; /* Hide the desktop table on mobile */
+    }
+  
+    .mobile-view {
+      display: block; /* Show the card layout on mobile */
+    }
+  
+    
+  }
+
+  @media (min-width: 1025px) {
+     .mobile-view {
+      display: none; 
+    }
+  
+    .desktop-view {
+      display: block; /* Show the desktop table */
+    }
+  }
+  
